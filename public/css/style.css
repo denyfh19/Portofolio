@@ -677,8 +677,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-items: center;
 }
 
+.justify-left {
+  justify-content: left;
+
+}
 .justify-center {
   justify-content: center;
+
 }
 
 .justify-between {
@@ -747,7 +752,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(192 38 211 / var(--tw-bg-opacity));
+  background-color: rgb(254 197 0 / var(--tw-bg-opacity));
 }
 
 .bg-zinc-200 {
@@ -902,7 +907,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgb(192 38 211 / var(--tw-text-opacity));
+  color: rgb(254 197 0 / var(--tw-text-opacity));
 }
 
 .text-dark {
@@ -1043,17 +1048,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:border-primary:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(192 38 211 / var(--tw-border-opacity));
+  border-color: rgb(254 197 0 / var(--tw-border-opacity));
 }
 
 .hover\:bg-primary:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(192 38 211 / var(--tw-bg-opacity));
+  background-color: rgb(254 197 0 / var(--tw-bg-opacity));
 }
 
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
-  color: rgb(192 38 211 / var(--tw-text-opacity));
+  color: rgb(254 197 0 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover {
@@ -1082,7 +1087,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .focus\:border-primary:focus {
   --tw-border-opacity: 1;
-  border-color: rgb(192 38 211 / var(--tw-border-opacity));
+  border-color: rgb(254 197 0/ var(--tw-border-opacity));
 }
 
 .focus\:outline-none:focus {
@@ -1098,7 +1103,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .focus\:ring-primary:focus {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(192 38 211 / var(--tw-ring-opacity));
+  --tw-ring-color: rgb(254 197 0 / var(--tw-ring-opacity));
 }
 
 @media (min-width: 640px) {

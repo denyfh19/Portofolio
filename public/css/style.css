@@ -476,6 +476,33 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 16px;
 }
 
+.kotak {
+  background-color: rgb(12, 12, 12);
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.h1-header {
+ color: #f8f7f7;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.isi {
+  border-color: #f8f7f7;
+}
+
+.isi-style {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
@@ -547,8 +574,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .mx-auto {
@@ -626,6 +653,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-full {
   width: 100%;
+}
+
+.w-full1 {
+  width: 80%;
 }
 
 .w-9 {
@@ -768,6 +799,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-zinc-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(113 113 122 / var(--tw-bg-opacity));
+}
+.bg-zink-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 28 30 / var(--tw-bg-opacity));
 }
 
 .bg-slate-200 {

@@ -480,6 +480,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(12, 12, 12);
   padding-top: 16px;
   padding-bottom: 16px;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .h1-header {

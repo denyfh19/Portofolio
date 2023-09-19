@@ -504,6 +504,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: center;
   align-items: center;
   align-content: center;
+  text-align: justify;
 }
 
 @media (min-width: 640px) {
